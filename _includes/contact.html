@@ -5,7 +5,23 @@
         <h2>Contact</h2>
         <hr class="small">
         <div class="row">
-
+          <ul class="list-unstyled">
+            <li>Personal Email: <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </li>
+            <li>School Email: <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.second_email }}">{{ site.second_email }}</a>
+            </li>
+          </ul>
+          <br>
+          <ul class="list-inline">
+            <li>
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-fw fa-3x contact-item"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x contact-item"></i></a>
+            </li>
+            <h5><br>Site last updated September 2023</h5>
+            
+          </ul>
         </div>
         <!-- /.row (nested) -->
       </div>

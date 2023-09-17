@@ -9,9 +9,10 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner: Garrett Knuf
 email: garrettknuf@cox.net
+second_email: gknuf@caltech.edu
 facebook_username:
 twitter_username:
-github_username:
+github_username: garrettknuf
 linkedin_username: garrettknuf
 address:
   - line:
